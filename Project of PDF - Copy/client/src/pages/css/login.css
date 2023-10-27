@@ -1,0 +1,67 @@
+.card-setting{
+    width: 400px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid #fff;
+    
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 500px) {
+    .card-setting {
+      width:auto;
+      height:auto;
+      
+    }
+}
+.log_head{
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    
+   
+}
+.signuphead{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* .btn12{
+    background-color: #0F91B0 !important;
+    border: none;
+    padding: 15px;
+    text-align: left;
+    border-radius: 20px;
+    width: 200px;
+    color: #fff;
+    font: "Roboto";
+}
+.Arrow{
+    background-color: #fff;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    color:'#000 '!important;
+} */
+.btn12{
+    background:transparent;
+    color:#fff;
+    border:2px solid #fff;
+    position:relative;
+    height:50px;
+    width: 250px;
+    font-size:1em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    border-radius: 20px;
+  }
